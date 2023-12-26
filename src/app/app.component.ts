@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'carousel';
+
+  images = [
+    {name: 'furina.png', caption:'furina'},
+    {name: 'liney.png', caption:'liney'},
+    {name: 'hutao.jpg', caption:'hutao'},
+  ]
 }
